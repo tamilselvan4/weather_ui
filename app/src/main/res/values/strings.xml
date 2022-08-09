@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="search">search</string>
+    <string name="country_name">India</string>
+    <string name="temperature_value">Temperature</string>
+    <string name="search_button">Search</string>
+    <string name="camera_button">C</string>
+    <string name="hint_city_name">City Name</string>
+</resources>

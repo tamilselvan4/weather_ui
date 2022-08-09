@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu"
+        android:title="Menu Item"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/detailed_info"
+                android:title="Detailed Info"
+                android:icon="@drawable/ic_info_24"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/atmosphere_info"
+                android:title="Atmosphere Info"
+                android:icon="@drawable/ic_landscape_24"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/hourly_info"
+                android:title="Hourly Info"
+                android:icon="@drawable/ic_time_24"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/future_forecast"
+                android:title="Future Forecast"
+                android:icon="@drawable/ic_event_note_24"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/temperature_graph"
+                android:title="Temperature Graph"
+                android:icon="@drawable/ic_t_24"
+                app:showAsAction="never"/>
+        </menu>
+
+    </item>
+
+</menu>
